@@ -70,3 +70,11 @@ ctx.stroke();
 // so all lasers will be of the same color of the player
 color = player.getColor();
 ```
+
+# Override Function
+
+```javascript
+    function createLaser() {
+        map.createLine([0, 0], [0, 0], function (player) {});
+    }
+```
