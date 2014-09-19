@@ -25,6 +25,7 @@ And than just go for the exit from the top.
 function moveToward(obj, type) {
     obj.move('left');
 }
+```
 
 ## amahdy: Block-em, they are idiots
 
@@ -34,4 +35,10 @@ function moveToward(obj, type) {
     map.placeObject(map.getWidth()-6, 12, 'block');
     map.placeObject(map.getWidth()-5, 13, 'block');
     map.placeObject(map.getWidth()-6, 13, 'block');
+```
+
+# Fake Player
+
+```javascript
+    map.placeObject(map.getWidth() - 7, 8, 'player');
 ```
