@@ -144,4 +144,12 @@ map.startTimer(antiGravity, 25);
 ```
 
 
+# Player Bridge
 
+``` javascript
+    for (var x = fl(w/2) - 5; x < fl(w/2) + 5; x++) {
+        for (var y = fl(h/2); y < h; y++) {
+            map.placeObject(x, y, 'player');
+        }
+    }
+```
